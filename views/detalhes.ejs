@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes</title>
+    <link rel="stylesheet" href="/detalhes.css" >
+</head>
+<body>
+
+    <header>
+        <a href="/"><img id="logo" src="https://logodownload.org/wp-content/uploads/2017/08/pokemon-logo-8.png"></a>
+        <h1 id="multi">Pokédex no Multiverso</h1>
+    </header>
+
+
+    <main>
+        <% pokemonAtual.forEach(element => { %>
+        <div class="card-container">
+             <div class="header-card"> 
+            <span class="card-num"><%= element.num %></span>     
+        </div> 
+            
+            <div class="main-card">
+
+                <img class="imgs"src="<%= element.img %> " alt="<%= element.name %>">
+                 <div class="name">
+                 <h4> <%= element.name %> </h4> </div> <br>
+                <div class="data-card"> 
+                    <span class="weight"> <%= element.weight %></span>
+                    <span class="height"><%= element.height %> </span>
+                    <div> 
+                        <%= element.candy %> 
+                    </div>
+                    <div>
+                        <%= element.weaknesses %> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-card"> Tipo: <%= element.type %> </div>
+        </div>
+         <% }) %> <br>
+        </div>
+       
+    </main>
+    <div class="botaoVoltar"> 
+        <center> <a href="/"><button>Voltar ao Início</button></a></center> 
+    </div>
+    <footer>
+    </footer> 
+</body>
+</html>

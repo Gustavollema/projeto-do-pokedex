@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    margin:0;
+    font-family: 'Roboto';
+}
+
+
+
+body {
+    background-color: RGB(32, 33, 36);
+}
+
+#logo {
+    width: 250px;
+    padding-left: 635px;
+    padding-top: 1.5rem;
+   
+}
+
+#multi {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 1rem;
+    color: RGB(61, 103, 186);
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 25px;
+} 
+
+div.card-container {
+    width: 380px;
+    height: 460px;
+    background-color: white;
+    border-radius: 1rem;
+    color: black; 
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+} 
+
+main {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    height: 120px;
+}
+
+div.botaoVoltar button {
+ width: 150px;
+ height: 40px;
+ margin-top: 50px;
+ background-color: RGB(250, 199, 5);
+ border-radius: 5px;
+ color: RGB(61, 104, 187);
+ border: solid 3px RGB(143, 197, 211);
+ cursor:pointer;
+ transition: all 0.2s ease-in-out;
+
+}
+
+div.botaoVoltar button:hover {
+    background-color: RGB(61, 103, 186);
+    color: #fff;
+    transform: translateY(-4px);
+}
+
+div.card-container:hover {
+    transform: scale(1.1);
+    background-color: RGB(63, 106, 185);
+    color: #fff;
+}
+
+.imgs:hover {
+    transform: scale(1.5);
+}
+
+div.footer-card {
+    background-color: RGB(250, 199, 5);
+    border-radius: 10px;
+    border: solid 1px RGB(61, 101, 185);
+    width: 160px;
+    color: #fff;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+div.footer-card:hover {
+    background-color: #fff;
+    color: RGB(63, 106, 185);
+    
+}
