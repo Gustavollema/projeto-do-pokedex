@@ -1,5 +1,7 @@
 # Este é o projeto da POKÉDEX feito para desenvolvimento na Blue EdTech 
 
+<p> O projeto consistia em contruir uma Pokédex utilizando Express e EJS para criar e reproduzir as páginas nos servidores com rotas.</p>
+
 <h2>PÁGINA INICIAL</h2>
 
 ![image](https://user-images.githubusercontent.com/90219607/159161395-7f927974-0166-4727-a111-a80ff9f60255.png)
@@ -18,5 +20,7 @@
  <a target="_blank"><img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" target="_blank"></a> 
  
 </div>
+
+
 
 
